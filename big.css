@@ -1,0 +1,237 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body,html{height:100%; width:100%;}
+ul li{list-style-type:none;}
+a{text-decoration:none;}
+.out{width:100%; overflow: hidden; padding-bottom:44px;  background-color:#efeadf; background-size:100% 100%;}
+
+/**************************头部样式***************************/
+.article{
+	width: 90%;
+	margin: 0 auto;
+	background: #ddd;
+	padding: 50px 0;
+}
+.article h3 {
+    max-height: none !important;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 0 4px;
+    font-weight: 200;
+    max-height: 56px;
+}
+.article1{
+	width: 90%;
+	margin: 0 auto;
+	background: #333;
+	padding: 50px 0;
+	color: #fff;
+}
+.article1 h3 {
+    max-height: none !important;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 0 4px;
+    font-weight: 200;
+    max-height: 56px;
+}
+.la{
+	text-align: center;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    padding: 9px 0 3px !important;
+    font-weight: 200 !important;
+    margin-bottom: 15px;
+}
+.kk{
+	text-align: center;	
+}
+.more{
+	
+	 padding: 10px 40px 7px 24px !important;
+    letter-spacing: 0.075em;
+    line-height: 1.3;
+    margin-right: 7px;
+    border: 1px solid #000; 
+    color: #000 !important;
+}
+
+ .nav{
+	width: 90%;
+	margin: 0 auto;
+	height: 48px;
+	line-height: 48px;
+	display: flex;
+
+}
+.logo{
+	width: 108px;
+	height: 48px;
+}
+.logo img{
+	width: 108px;
+	height: 48px;
+}
+.heng{
+	flex: 2;
+	background: #ddd; 
+	display: flex;
+	margin-left: 50px;
+}
+.heng li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+li:nth-child(3){
+	margin-right: auto;
+}
+.nav .input{
+	flex: 3;
+	display: none;
+	/* display: flex; */
+	flex-direction: row-reverse;
+	align-items: center;
+	position: relative;
+}
+.input input{
+
+   width: 244px;
+   height: 36px;
+}
+button{
+	width: 50px;
+	height: 36px;
+	margin: 5px 0 0 10px;
+}
+
+.bot{
+	position: absolute;
+	right: 20px;
+}
+.cart{
+
+	width: 40px;
+	height: 48px;
+	text-align: center;
+	margin-left: 10px;
+}
+.login{
+	width: 46px;
+	height: 48px;
+	text-align: center;
+	margin-left: 10px;
+}
+.banner{
+	width: 90%;
+	margin: 50px auto;
+}
+.banner img{
+	width: 100%;
+}
+
+article{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
+article dl{
+	flex:1;
+	border: 1px solid #ccc;
+	margin: 0 10px;
+}
+article dl img{
+	width: 100%
+}
+footer{
+	width: 100%;
+	background: #aaa;
+}
+
+
+
+
+.cofi{
+    font-size: 24px;
+    line-height: 28px;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 56px;
+    font-weight: 200;
+    padding-top: 12px;
+}
+.bom{
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 40px;
+    padding-top: 2px;
+} 
+
+
+
+h2.biao {
+    margin-top: -17px !important;
+    margin-bottom: 44px !important;
+}
+
+h2.biao {
+    font-size: 36px !important;
+    font-weight: 100 !important;
+    padding-top: 30px !important;
+}
+.biao {
+    text-align: center;
+}
+
+.food{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 50px;
+}
+.food ul{
+	flex: 1;
+}
+
+ .food ul h2{
+	 margin-bottom: .5em;
+    cursor: auto;
+    font-size: 15px;
+ }
+ .food ul li{
+	vertical-align: middle;
+    font-size: .8em;
+    margin-bottom: .5em;
+    color: #626262;
+ }
+ .finally{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	padding: 50px 0;
+ }
+.fl{
+		flex: 1;
+  	margin-right:auto ;
+}
+  .fl li{
+  	float: left;
+  margin: 5px;
+  }
+  .fR {
+  	flex: 2;
+  }
+  .fR li{
+  	float: left;
+  	  margin-left: 2em;
+    margin-right: 0;
+  }
+
+ 
+      
